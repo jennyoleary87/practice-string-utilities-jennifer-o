@@ -8,4 +8,9 @@ Import the stringUtils.js module into app.js.
 */
 
 const fs = require('fs');
+const stringUtils = require('./stringUtils');
 
+console.log(`capitalize "javascript": ${stringUtils.capitalize("javascript")}`);
+console.log(`reverse "javascript": ${stringUtils.reverse("javascript")}`);
+console.log(`contains "javascript" && "pandas": ${stringUtils.contains("javascript", "pandas")}`);
+console.log(`contains "javascript" && "script": ${stringUtils.contains("javascript", "script")}`);
