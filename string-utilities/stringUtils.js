@@ -31,11 +31,11 @@ function reverse(str) {
 function contains(str, substr) {
     str = String(str);
     substr = String(substr);
-    if (str && substr) {
-        console.log("true, there is a substring");
-    } else {
-        console.log("false, no substring");
-    }
+    // if (str && substr) {
+    //     console.log("true, there is a substring");
+    // } else {
+    //     console.log("false, no substring");
+    // }
     return str.includes(substr);
 }
 

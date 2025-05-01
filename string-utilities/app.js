@@ -12,5 +12,6 @@ const stringUtils = require('./stringUtils');
 
 console.log(`capitalize "javascript": ${stringUtils.capitalize("javascript")}`);
 console.log(`reverse "javascript": ${stringUtils.reverse("javascript")}`);
+console.log(`reverse "chocolate": ${stringUtils.reverse("chocolate")}`);
 console.log(`contains "javascript" && "pandas": ${stringUtils.contains("javascript", "pandas")}`);
 console.log(`contains "javascript" && "script": ${stringUtils.contains("javascript", "script")}`);
